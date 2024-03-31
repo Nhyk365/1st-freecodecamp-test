@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" >
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <title>Nhyk's Survey</title>
+</head>
+<body>
+  <h1 id="title">Nhyk's Survey</h1>
+  <p id="description">Thank you for helping me pass this test!</p>
+  <form id="survey-form">
+    <fieldset>
+    <label id="name-label" for="name">Name</label>
+      <input required id="name" type="text" placeholder="Enter your name">    
+    <label id="email-label" for="email">Email</label> 
+      <input required id="email" type="email" placeholder="Enter your email">    
+    <label id="number-label" for="number">Age (optional)</label> 
+      <input id="number" type="number" min="16" max="120" placeholder="Age">
+    <label id="job-label" for="dropdown">What's your job?</label>
+      <select id="dropdown">
+        <option>Select your current job</option>
+        <option>Blue Collar</option>
+        <option>White Collar</option>
+        <option>Other</option>
+        <option>Prefer not to say</option>
+      </select>
+     <label>Do you like your job?</label> 
+     <label> <input class="inline" checked type="radio" name="satisfaction" id="satisfaction" value="yes">Yes</></label>
+      <label><Input class="inline" type="radio" name="satisfaction" id="satisfaction" value="no">No</></label>
+      
+      <label id="dream-job-label">What is your dream job? (check all that apply)</label>
+        <input class="inline" type="checkbox" value="Engineer">Engineer</>
+        <input class="inline" type="checkbox" value="Astronaut">Astronaut</>
+        <input class="inline" type="checkbox" value="Mechanic">Mechanic</>
+        <input class="inline" type="checkbox" value="Architect">Architect</>
+        <input class="inline" type="checkbox" value="Soldier">Soldier</>
+      <label id="textarea-label" for="textbox">What makes a great job?</label>
+        <textarea id="textbox" placeholder="Insert any comments here..."></textarea>
+      <input id="submit" type="submit">
+      </fieldset>
+</form>
+</body>
+</html>

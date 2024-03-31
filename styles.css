@@ -1,0 +1,46 @@
+body{
+  font-family:poppins;
+  background-color:#0c3c78;
+  color:white;
+  margin:0;
+  width:100%;
+  height:100vh;
+}
+h1,p{
+  text-align:center;
+  margin:auto;
+}
+p{
+  font-style: italic;
+}
+form{
+  width:60vh;
+  margin:0 auto;
+  padding-top: 10;
+}
+label, textarea{
+  display:block;
+  margin: 1em 0 0 0;
+  text-align:left;
+}
+input, select, textarea{
+  margin:0;
+  width:100%;
+  }
+  .inline{
+    width:unset;
+    display:inline;
+    vertical-align:middle;
+    margin: 0 0.5em 0 0;
+  }
+  input[type="submit"]{
+    width:100%;
+    margin:1em auto;
+  }
+fieldset{
+  border:none;
+}
+legend{
+  padding:10 0 0 0
+  text-align:left;
+}
